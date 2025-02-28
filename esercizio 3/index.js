@@ -25,5 +25,5 @@ else if (forma === "cerchio") {
     console.log("calcolo forma cerchio IN")
 }
 else { console.log("errore")
-    document.querySelector("#errore").innerHTML = "errore"
+    document.querySelector("#errore").innerHTML = forma + " non è una forma corretta"
  }
