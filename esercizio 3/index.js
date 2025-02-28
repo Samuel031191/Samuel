@@ -16,11 +16,14 @@ if (forma === "rettangolo") {
 
 
 
-}else if (forma === "triangolo") {
+} else if (forma === "triangolo") {
     //logica calcolo area triangolo
     console.log("calcolo forma triangolo IN")
 }
 else if (forma === "cerchio") {
     //logica calcolo area cerchio
     console.log("calcolo forma cerchio IN")
-}else{}
+}
+else { console.log("errore")
+    document.querySelector("#errore").innerHTML = "errore"
+ }
