@@ -24,6 +24,7 @@ else if (forma === "cerchio") {
     //logica calcolo area cerchio
     console.log("calcolo forma cerchio IN")
 }
-else { console.log("errore")
+else {
+    console.log("errore")
     document.querySelector("#errore").innerHTML = forma + " non è una forma corretta"
- }
+}
