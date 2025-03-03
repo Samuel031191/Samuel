@@ -16,7 +16,7 @@ if (forma === "rettangolo") {
 
 
 
-} 
+}
 //3. Imposta le regole per il triangolo
 else if (forma === "triangolo") {
     //logica calcolo area triangolo
