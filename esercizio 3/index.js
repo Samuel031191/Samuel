@@ -2,7 +2,7 @@
 let forma = prompt("inserisci la forma di cui vuoi calcolare l' area: rettangolo, triangolo, cerchio")
 console.log(forma)
 
-//2. Imposta le regole per le forme geometriche
+//2. Imposta le regole per il rettangolo
 if (forma === "rettangolo") {
     //logica calcolo rettangolo 
     console.log("calcolo forma rettangolo IN")
@@ -16,7 +16,9 @@ if (forma === "rettangolo") {
 
 
 
-} else if (forma === "triangolo") {
+} 
+//3. Imposta le regole per il triangolo
+else if (forma === "triangolo") {
     //logica calcolo area triangolo
     console.log("calcolo forma triangolo IN")
     const base = prompt("inserisci il valore della base")
@@ -27,6 +29,7 @@ if (forma === "rettangolo") {
     console.log("l' area del tuo triangolo è: " + area)
     document.querySelector("#risultato").innerHTML = "La tua area è " + area
 }
+//4. Imposta le regole per il cerchio
 else if (forma === "cerchio") {
     //logica calcolo area cerchio
     console.log("calcolo forma cerchio IN")
