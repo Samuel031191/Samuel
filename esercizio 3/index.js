@@ -9,13 +9,10 @@ if (forma === "rettangolo") {
     const base = prompt("inserisci il valore della base")
     const altezza = prompt("inserisci il valore dell' altezza")
     console.log(`calcolo forma rettangolo VALORI B: ${base} H:  ${altezza}`)
-    //3. calcolo aerea rettangolo
+    //calcolo aerea rettangolo
     const area = (base * altezza)
     console.log("l' area del tuo rettangolo è: " + area)
     document.querySelector("#risultato").innerHTML = "La tua area è " + area
-
-
-
 }
 //3. Imposta le regole per il triangolo
 else if (forma === "triangolo") {
@@ -24,7 +21,7 @@ else if (forma === "triangolo") {
     const base = prompt("inserisci il valore della base")
     const altezza = prompt("inserisci il valore dell' altezza")
     console.log(`calcolo forma triangolo VALORI B: ${base} H:  ${altezza}`)
-    //3. calcolo aerea triangolo
+    //calcolo aerea triangolo
     const area = ((base * altezza) / 2)
     console.log("l' area del tuo triangolo è: " + area)
     document.querySelector("#risultato").innerHTML = "La tua area è " + area
@@ -34,8 +31,8 @@ else if (forma === "cerchio") {
     //logica calcolo area cerchio
     console.log("calcolo forma cerchio IN")
     const raggio = prompt("inserisci il valore del raggio")
-    console.log(`calcolo forma rettangolo VALORI r: ${raggio}`)
-    //3. calcolo aerea cerchio
+    console.log(`calcolo forma cerchio VALORI r: ${raggio}`)
+    //calcolo aerea cerchio
     const area = ((raggio * raggio) * 3.14)
     console.log("l' area del tuo cerchio è: " + area)
     document.querySelector("#risultato").innerHTML = "La tua area è " + area
