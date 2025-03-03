@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Like/Unlike Button</title>
+    <style>
+        .Liked {
+            color: blue;
+            font-weight: bold;
+        }
+        .Unliked {
+            color: gray;
+            font-weight: normal;
+        }
+        #update-message {
+            display: none;
+            color: green;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<script src="index.js"></script>
+<body>
+
+    <button id="like-button" class="unliked" onclick="toggleLike()">Like</button>
+    <div id="update-message">Updated</div>
