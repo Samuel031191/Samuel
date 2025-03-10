@@ -7,37 +7,30 @@
 <body>
   <h1 id="titolo">Titolo originale</h1>
   <p id="testo">Questo è un paragrafo statico.</p>
+  
+  <!-- Input per cambiare il testo del paragrafo -->
   <input type="text" id="inputTesto" placeholder="Cambia testo" />
-  <input type="text" id="inputTitolo" placeholder="Cambia titolo "/>
+  <input type="text" id="inputTitolo" placeholder="Cambia titolo" />
   <button id="btnCambia">Cambia Testo</button>
   <button id="btnCambiaTitolo">Cambia Titolo</button>
+  
   <h2 id="errore"></h2>
+  
+  <hr>
+  
+  <!-- Menu per scegliere il colore del paragrafo -->
   <h3>Scegli il colore del paragrafo</h3>
-  <!-- Menu a tendina -->
   <select id="colorSelect" onchange="cambiaColore()">
-      <option value="black">Nero</option>
-      <option value="red">Rosso</option>
-      <option value="green">Verde</option>
-      <option value="blue">Blu</option>
-      <option value="purple">Viola</option>
+    <option value="black">Nero</option>
+    <option value="red">Rosso</option>
+    <option value="green">Verde</option>
+    <option value="blue">Blu</option>
+    <option value="purple">Viola</option>
   </select>
 
-  <p id="testo"></p>
+  <p id="testo">Questo è un paragrafo il cui colore cambierà in base alla selezione.</p>
 
   <script src="index.js"></script>
 </body>
 </html>
-
-<h3>Scegli il colore del paragrafo</h3>
-  <!-- Menu a tendina -->
-  <select id="colorSelect" onchange="cambiaColore()">
-      <option value="black">Nero</option>
-      <option value="red">Rosso</option>
-      <option value="green">Verde</option>
-      <option value="blue">Blu</option>
-      <option value="purple">Viola</option>
-  </select>
-
-  <p id="testo"></p>
-
 
