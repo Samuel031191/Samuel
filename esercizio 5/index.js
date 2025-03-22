@@ -19,7 +19,7 @@ let isLiked = false;
                 button.innerHTML = 'Liked';
                 button.className = 'liked';
             } else {
-                button.innerHTML = 'Like';
+                button.innerHTML = 'Unliked';
                 button.className = 'unliked';
             }
         }
